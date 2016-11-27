@@ -1,9 +1,10 @@
-questions=["which os is most used in the world?", "what is the capital of England?"]
+questions=["which os is most used in the world?", "Who is the writer of the harry potter series?", "Are you Mad?"]
 options=[
 		["A. linux", "B. windows", "C. mac", "D. iOS"],
-		["A. delhi", "B. london", "C. karachi", "D. newyork"]
+		["A. Geronimo Stilton", "B. Roald Dahl", "C. Jeff Kinney", "D. J.K Rowling"],
+		["Yes", "No"]
 	]
-answers=["A", "B"]
+answers=["A", "B", "YES"]
 for question in questions :
 	print question
 	index=questions.index(question)
