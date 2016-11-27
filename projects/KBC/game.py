@@ -1,8 +1,8 @@
-questions = ["Which OS is most used in the world?","What is the capital of England?"]
+questions = ["Which OS is most used in the world?","What is the capital of England?","Where is Taj Mahal located?" , "What is the capital of India?"]
 
-options = [[ "A.  Linux", "B.  Windows", "C.  IOS" ] , ["A.  Delhi", "B.  London", "C.  Karachi", "D.  New York"] ]
+options = [[ "A.  Linux", "B.  Windows", "C.  IOS" ] , ["A.  Delhi", "B.  London", "C.  Karachi", "D.  New York"] , ["A. Delhi" , "B. Agra" , "C. Chennai"] , ["A. New York" , "B. London" , "C. New Delhi"] ]
 
-answers = [ "A", "B" ]
+answers = [ "A", "B", "B", "C" ]
 for  question in questions:
 	print question
 	index = questions.index(question)
