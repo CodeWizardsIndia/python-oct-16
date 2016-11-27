@@ -1,4 +1,0 @@
-import turtle as t
-t.color("red")
-t.fillcolor("red")
-t.
