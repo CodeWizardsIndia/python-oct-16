@@ -1,6 +1,6 @@
 import turtle as t
 def option(opt,x,y):
-	t.color("blue")
+	t.color("#003366")
 	t.penup()
 	t.setpos(x,y)
 	t.pendown()
@@ -18,14 +18,19 @@ def option(opt,x,y):
 	t.lt(60)
 	t.fd(150)
 	t.end_fill()
-	t.color("green")
+	t.color("#FF6600")
 	t.penup()
 	t.setpos(x-160,y+20)
 	t.pendown()
 	t.write(opt,False,font=("Arial",30,"bold"))
-w=t.window_width()/2
-h=t.window_height()/2
-option("iOS",h-10,w-50)
-option("linux",h+390,w-50)
-option("Windows",h-10,w-150)
-option("Android",h+390,w-150)
+
+w=t.window_width()
+h=t.window_height()
+
+opt_w = 220
+x = (w/2 - opt_w)/2.0
+
+option("iOS",-x,-150)
+option("linux",x+opt_w,-150)
+option("Windows",-x,-250)
+option("Android",x+opt_w,-250)
