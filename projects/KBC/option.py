@@ -3,7 +3,7 @@ def hex(opt,a,b):
 	t.penup()
 	t.setpos(a,b)
 	t.pendown()
-	t.color("green")
+	t.color("#89DA59")
 	t.begin_fill()
 	t.left(60)
 	t.fd(50)
@@ -27,17 +27,19 @@ def hex(opt,a,b):
 	t.pencolor("black")
 	t.fd(20)
 	t.write( opt, False, font=("Arial", 25, "bold"))
-hex("ke",-250,-50)
-hex("vi",250,-50)
-hex("nn",-250,-150)
-hex("klk",250,-150)
+	t.penup()
+	t.setpos(0,0)
+	t.pendown()
+w = t.window_width()
+h = t.window_height()
+
+hex_w= 270
+x = (w/2.0-hex_w)/2
 
 
+hex("Option 1",-(hex_w+x),-130)
+hex("Option 2",x,-130)
+hex("Option 3",-(hex_w+x),-230)
+hex("Option 4",x,-230)
 
 
-
-
-
-
-while True:
-	t.position()
