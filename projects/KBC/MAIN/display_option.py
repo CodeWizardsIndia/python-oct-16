@@ -27,17 +27,15 @@ def opt(written,x,y):
         t.pencolor("SKY BLUE")
         t.fd(20)
         t.write( written, False, font=("Arial", 25, "bold"))
-w = t.window_width()
-h = t.window_height()
-
-opt_w = 270
-x = (w/2 - opt_w)/2
-
-left_x = -(x+opt_w)
-
-opt("DEHLI",left_x,-150)
-opt("AGRA",x,-150)
-opt("MATHURA",left_x,-250)
-opt("GOA",x,-250)
-
-
+#w = t.window_width()
+#h = t.window_height()
+#
+#opt_w = 270
+#x = (w/2 - opt_w)/2
+#
+#left_x = -(x+opt_w)
+#
+#opt("DEHLI",left_x,-150)
+#opt("AGRA",x,-150)
+#opt("MATHURA",left_x,-250)
+#opt("GOA",x,-250)

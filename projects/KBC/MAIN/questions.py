@@ -14,7 +14,7 @@ questions = ["Which operating systym is most used in the world ?",
              ]
 options = [
 		["A. linux","B. windows","C. mac","D. ios"] ,
- 		["A. dehli","B. london","C. karachi","D. new york"] ,
+ 		["A. delhi","B. london","C. karachi","D. new york"] ,
 		["A. narender modi","B. parnab mukherji","C. rajiv gandhi"] ,
 		["A. dehli" , "B. karach" ," C. chennai" , "D. GOA" ] ,
 		["A. COMET" ,"B. sattelite" , "C. star planet" , "D. planet"],
@@ -29,24 +29,3 @@ options = [
 	  ]
 
 answers = [ "A" , "B" , "A" , "A" ,"B" ,"C" ,"A" , "B" , "C" ,  "B" , "C" , "C" , "A"]
-
-for ques in questions :
-
-	print ques
-
-	index = questions.index(ques)
-
-	print "your options are:"
-
-	print  options[index]
-	
-	real_answer = answers[index]
-
-	user_answer = raw_input("enter your answer: ")
-
-	user_answer = user_answer.upper()
-
-	if  real_answer == user_answer:
-		print "you are correct"
-	else:
-		print "you are wrong"
