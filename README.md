@@ -6,10 +6,17 @@ Python and Numbers:
 
 Assignment 1:
 
-Q1: Take input from user and check if given input is an integer.
-
-hint: use raw_input to take input from user, use if statement and isinstance function.
+Q1: Take a number from user and print odd if it's an odd number, else print even.
 
 Q2: Take two numbers from user and return sum of the numbers.
 
-Q3: Check if a given number is prime or not.
+Q3: Print negative, zero or positive if a number is <0  , ==0 or >0 respectivey, take number from user.
+
+Q4: Take number "N" from user and print this sequence:
+	1
+	2
+	3
+	...
+	N
+
+Q5: Take two numbers from user and print quotient and remainder when first is divided by second.
