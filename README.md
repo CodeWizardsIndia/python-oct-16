@@ -20,3 +20,18 @@ Q4: Take number "N" from user and print this sequence:
 	N
 
 Q5: Take two numbers from user and print quotient and remainder when first is divided by second.
+
+
+Python and Strings:
+
+Assignment 2:
+
+Q1: Take a string from user and print it's first and last character.
+
+Q2: Take a string from user and print total number of characters in that string.
+
+Q3: Take a string from user and print 1 character from starting to end per new line.
+
+Q4: Take two strings from user and concat them, also join them with a space.
+
+Q5: check if a substring exists in a string.
