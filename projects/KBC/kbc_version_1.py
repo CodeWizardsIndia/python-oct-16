@@ -1,10 +1,13 @@
 questions=["which os is most used in the world?", "Who is the writer of the harry potter series?", "Are you Mad?"]
+
 options=[
 		["A. linux", "B. windows", "C. mac", "D. iOS"],
 		["A. Geronimo Stilton", "B. Roald Dahl", "C. Jeff Kinney", "D. J.K Rowling"],
-		["Yes", "No"]
+		["A. Yes", "B. No", "C. May be", "D. I don't know"]
 	]
-answers=["A", "B", "YES"]
+
+answers=["A", "B", "A"]
+
 for question in questions :
 	print question
 	index=questions.index(question)
