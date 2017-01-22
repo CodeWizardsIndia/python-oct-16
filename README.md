@@ -4,7 +4,7 @@ Python Assignments and Fun Projects Made by Students of Python Batch of October 
 
 ## Python and Numbers:
 
-	### Assignment 1:
+### 	Assignment 1:
 
 		Q1: Take a number from user and print odd if it's an odd number, else print even.
 
@@ -24,7 +24,7 @@ Python Assignments and Fun Projects Made by Students of Python Batch of October 
 
 ## Python and Strings:
 
-	### Assignment 2:
+### 	Assignment 2:
 
 		Q1: Take a string from user and print it's first and last character.
 
@@ -37,7 +37,7 @@ Python Assignments and Fun Projects Made by Students of Python Batch of October 
 		Q5: check if a substring exists in a string.
 
 
-	### Assignment 3:
+### 	Assignment 3:
 
 		Q1: Take an english sentence from user, use split method of string to print word per line.
 			
@@ -53,3 +53,12 @@ Python Assignments and Fun Projects Made by Students of Python Batch of October 
 		Q2: Take a sentence from user and print the number of words and characters in that sentence.
 
 		Q3: Take a word from user and print that whole word in lower and upper case.
+
+
+## Creating Games using Pyglet
+
+* Installing Pyglet using pip:
+	* sudo pip install pyglet
+
+* Pyglet Documentation:
+	* [pyglet doc](http://pyglet.readthedocs.io/en/pyglet-1.2-maintenance/index.html)
